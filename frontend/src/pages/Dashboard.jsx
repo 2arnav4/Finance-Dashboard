@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="">
       <div className="p-4">
         <h2 className="text-2xl font-semibold justify-center">
           {" "}
@@ -18,7 +18,7 @@ const Dashboard = () => {
             title="Investments"
             amount="1,20,000"
             change="+5.2% this month"
-            bgColor="bg-blue-500"
+            bgColor="bg-gradient-to-br from-[#4F28C7] to-[#210101]"
           />
         </Link>
         <Link to="/expenses">

@@ -11,16 +11,20 @@ import React from "react";
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/investments" element={<Investments />} />
-        <Route path="/expenses" element={<Expenses />} />
-        <Route path="/earnings" element={<Earnings />} />
-        <Route path="/savings" element={<Savings />} />
-      </Routes>
+      <div className="min-h-screen bg-gradient-to-br from-[#1a1a4e] to-[#210101] text-white">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/investments" element={<Investments />} />
+          <Route path="/expenses" element={<Expenses />} />
+          <Route path="/earnings" element={<Earnings />} />
+          <Route path="/savings" element={<Savings />} />
+        </Routes>
+      </div>
     </>
   );
 }
+
+
 
 export default App;
