@@ -2,23 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#3B3B98] bg-gradient-to-br from-[#1e1e3c] to-[#dfbcbc] p-4 text-white mx-auto mt-7 shadow-md rounded-2xl max-w-6xl">
-      <div className="flex justify-between items-center">
-        
-        {/* LEFT SIDE - Logo */}
-        <div className="text-xl font-semibold">
-          Finance Dashboard
-        </div>
-        
-        {/* RIGHT SIDE - Menu Items */}
-        <div className="flex space-x-6 text-base">
-          <div className="hover:text-blue-200 cursor-pointer">Home</div>
-          <div className="hover:text-blue-200 cursor-pointer">About</div>
-          <div className="hover:text-blue-200 cursor-pointer">Services</div>
-          <div className="hover:text-blue-200 cursor-pointer">Reports</div>
-          <div className="hover:text-blue-200 cursor-pointer">Contact</div>
-        </div>
-        
+    <nav className="bg-white flex flex-col justify-start items-center left-0 top-0 h-screen w-67 text-white shadow-lg">
+      <div className =" flex flex-row items-center pt-8">
+        <div className="rounded-full text-black bg-gray-300 w-10 h-10 mb-2"></div>
+        <div className="text-lg font-semibold text-black ml-2">UserName</div>
       </div>
     </nav>
   );
